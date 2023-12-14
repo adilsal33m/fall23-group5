@@ -15,6 +15,9 @@
 		17C2B1892B2A4AD100CCBBE2 /* SwiftUIButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C2B1882B2A4AD100CCBBE2 /* SwiftUIButtonView.swift */; };
 		17C2B18F2B2A644700CCBBE2 /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C2B18E2B2A644700CCBBE2 /* Timetable.swift */; };
 		2507E6572B258E3900FF2DF6 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2507E6562B258E3900FF2DF6 /* ScannerView.swift */; };
+		255C01562B2B034F00B5552E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 255C01552B2B034F00B5552E /* README.md */; };
+		255C015E2B2B037400B5552E /* ARPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C015D2B2B037400B5552E /* ARPersistenceTests.swift */; };
+		255C01652B2B058F00B5552E /* ScanDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C01642B2B058F00B5552E /* ScanDataTests.swift */; };
 		5CB92B4F20D852B0004D38D8 /* SnapshotAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB92B4E20D852B0004D38D8 /* SnapshotAnchor.swift */; };
 		842316E01F2030C300D189D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842316DF1F2030C300D189D1 /* AppDelegate.swift */; };
 		842316E41F2030C300D189D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842316E31F2030C300D189D1 /* ViewController.swift */; };
@@ -22,6 +25,16 @@
 		842316EC1F2030C300D189D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842316EA1F2030C300D189D1 /* LaunchScreen.storyboard */; };
 		84ABEA0A1F3D15E70052D547 /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ABEA091F3D15E70052D547 /* Assets.scnassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255C015F2B2B037400B5552E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842316D41F2030C300D189D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842316DB1F2030C300D189D1;
+			remoteInfo = ARPersistence;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		111DC86820ACAB690037F7B1 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
@@ -32,6 +45,10 @@
 		17C2B1882B2A4AD100CCBBE2 /* SwiftUIButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonView.swift; sourceTree = "<group>"; };
 		17C2B18E2B2A644700CCBBE2 /* Timetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; };
 		2507E6562B258E3900FF2DF6 /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		255C01552B2B034F00B5552E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		255C015B2B2B037400B5552E /* ARPersistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPersistenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255C015D2B2B037400B5552E /* ARPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPersistenceTests.swift; sourceTree = "<group>"; };
+		255C01642B2B058F00B5552E /* ScanDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDataTests.swift; sourceTree = "<group>"; };
 		35F0FDB76E9A606A84E59401 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		5CB92B4E20D852B0004D38D8 /* SnapshotAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotAnchor.swift; sourceTree = "<group>"; };
 		842316DC1F2030C300D189D1 /* ARPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +61,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		255C01582B2B037400B5552E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		842316D91F2030C300D189D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,10 +86,21 @@
 			name = Configuration;
 			sourceTree = "<group>";
 		};
+		255C015C2B2B037400B5552E /* ARPersistenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				255C015D2B2B037400B5552E /* ARPersistenceTests.swift */,
+				255C01642B2B058F00B5552E /* ScanDataTests.swift */,
+			);
+			path = ARPersistenceTests;
+			sourceTree = "<group>";
+		};
 		842316D31F2030C300D189D1 = {
 			isa = PBXGroup;
 			children = (
+				255C01552B2B034F00B5552E /* README.md */,
 				842316DE1F2030C300D189D1 /* ARPersistence */,
+				255C015C2B2B037400B5552E /* ARPersistenceTests */,
 				842316DD1F2030C300D189D1 /* Products */,
 				0F66CEC87ABA0F5130EE75F2 /* Configuration */,
 			);
@@ -75,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				842316DC1F2030C300D189D1 /* ARPersistence.app */,
+				255C015B2B2B037400B5552E /* ARPersistenceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +140,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		255C015A2B2B037400B5552E /* ARPersistenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C01612B2B037400B5552E /* Build configuration list for PBXNativeTarget "ARPersistenceTests" */;
+			buildPhases = (
+				255C01572B2B037400B5552E /* Sources */,
+				255C01582B2B037400B5552E /* Frameworks */,
+				255C01592B2B037400B5552E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255C01602B2B037400B5552E /* PBXTargetDependency */,
+			);
+			name = ARPersistenceTests;
+			productName = ARPersistenceTests;
+			productReference = 255C015B2B2B037400B5552E /* ARPersistenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		842316DB1F2030C300D189D1 /* ARPersistence */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842316F01F2030C300D189D1 /* Build configuration list for PBXNativeTarget "ARPersistence" */;
@@ -127,10 +181,16 @@
 		842316D41F2030C300D189D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
+					255C015A2B2B037400B5552E = {
+						CreatedOnToolsVersion = 15.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 842316DB1F2030C300D189D1;
+					};
 					842316DB1F2030C300D189D1 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 1140;
@@ -152,17 +212,26 @@
 			projectRoot = "";
 			targets = (
 				842316DB1F2030C300D189D1 /* ARPersistence */,
+				255C015A2B2B037400B5552E /* ARPersistenceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		255C01592B2B037400B5552E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		842316DA1F2030C300D189D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84ABEA0A1F3D15E70052D547 /* Assets.scnassets in Resources */,
 				842316EC1F2030C300D189D1 /* LaunchScreen.storyboard in Resources */,
+				255C01562B2B034F00B5552E /* README.md in Resources */,
 				112FE5671F4F95A200BF85EA /* Assets.xcassets in Resources */,
 				842316E71F2030C300D189D1 /* Main.storyboard in Resources */,
 			);
@@ -171,6 +240,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		255C01572B2B037400B5552E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C01652B2B058F00B5552E /* ScanDataTests.swift in Sources */,
+				255C015E2B2B037400B5552E /* ARPersistenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		842316D81F2030C300D189D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +267,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255C01602B2B037400B5552E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842316DB1F2030C300D189D1 /* ARPersistence */;
+			targetProxy = 255C015F2B2B037400B5552E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		842316E51F2030C300D189D1 /* Main.storyboard */ = {
@@ -210,6 +296,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		255C01622B2B037400B5552E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97QHFB89S4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = pk.edu.iba.12429.ARPersistenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARPersistence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARPersistence";
+			};
+			name = Debug;
+		};
+		255C01632B2B037400B5552E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97QHFB89S4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = pk.edu.iba.12429.ARPersistenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARPersistence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARPersistence";
+			};
+			name = Release;
+		};
 		842316EE1F2030C300D189D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35F0FDB76E9A606A84E59401 /* SampleCode.xcconfig */;
@@ -360,6 +502,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		255C01612B2B037400B5552E /* Build configuration list for PBXNativeTarget "ARPersistenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C01622B2B037400B5552E /* Debug */,
+				255C01632B2B037400B5552E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		842316D71F2030C300D189D1 /* Build configuration list for PBXProject "ARPersistence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
