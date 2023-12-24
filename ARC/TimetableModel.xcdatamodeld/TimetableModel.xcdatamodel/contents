@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C64" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="SlotEntity" representedClassName="SlotEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="endTime" optional="YES" attributeType="String"/>
+        <attribute name="eventName" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="String"/>
+        <relationship name="timetable" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TimetableEntity" inverseName="slots" inverseEntity="TimetableEntity"/>
+    </entity>
+    <entity name="TimetableEntity" representedClassName="TimetableEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="classroomName" optional="YES" attributeType="String"/>
+        <relationship name="slots" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SlotEntity" inverseName="timetable" inverseEntity="SlotEntity"/>
+    </entity>
+</model>
